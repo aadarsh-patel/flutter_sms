@@ -51,7 +51,7 @@ List<SmsMessage> messages = await query.getAllSms;
 ``` 
 
 **Note**: _the use of `await` keyword means that `getAllSms` is resolved asynchronously
-and a Future is retorned._
+and a Future is returned._
 
 ## Filtering SMS messages
 
